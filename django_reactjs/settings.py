@@ -60,7 +60,7 @@ STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'frontend'), )
 WEBPACK_LOADER = {
     'DEFAULT': {
         'BUNDLE_DIR_NAME': 'bundles/',
-        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json')
+        'STATS_FILE': os.path.join(BASE_DIR, './.webpack/webpack-stats-local.json')
     }
 }
 
@@ -70,6 +70,6 @@ if not DEBUG:
     WEBPACK_LOADER.update({
         'DEFAULT' : {
         'BUNDLE_DIR_NAME': 'dist/',
-        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats-prod.json')
+        'STATS_FILE': os.path.join(BASE_DIR, './.webpack/webpack-stats-prod.json')
         }
     })

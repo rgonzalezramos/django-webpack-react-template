@@ -5,7 +5,7 @@ var BundleTracker = require('webpack-bundle-tracker')
 module.exports = {
   context: __dirname,
 
-  entry: './frontend/src/index',
+  entry: './../frontend/src/index',
 
   output: {
       path: path.resolve('./frontend/bundles/'),

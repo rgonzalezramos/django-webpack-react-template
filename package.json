@@ -4,9 +4,9 @@
   "description": "Just an integration proof",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.local.js --progress --colors",
-    "watch": "./node_modules/.bin/webpack --config webpack.config.local.js --watch",
-    "build-prod": "webpack --config webpack.config.prod.js --progress --colors"
+    "build": "webpack --config .webpack/webpack.config.local.js --progress --colors",
+    "watch": "./node_modules/.bin/webpack --config .webpack/webpack.config.local.js --watch",
+    "build-prod": "webpack --config .webpack/webpack.config.prod.js --progress --colors"
   },
   "author": "",
   "license": "UNLICENSED",

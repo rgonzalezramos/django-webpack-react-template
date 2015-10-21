@@ -6,7 +6,7 @@ var config = require('./webpack.config.base.js')
 config.output.path = require('path').resolve('./frontend/dist')
 
 config.plugins = config.plugins.concat([
-  new BundleTracker({filename: './webpack-stats-prod.json'}),
+  new BundleTracker({filename: './.webpack/webpack-stats-prod.json'}),
 
   // removes a lot of debugging code in React
   new webpack.DefinePlugin({
