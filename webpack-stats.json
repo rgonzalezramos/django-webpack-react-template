@@ -1,1 +1,1 @@
-{"status":"error","error":"ModuleNotFoundError","message":"Module not found: Error: Cannot resolve module 'jquery' in /Users/rob/dev/demos/django.reactjs/django_reactjs/frontend/js"}
+{"status":"done","chunks":{"main":[{"name":"main-9c6059c68c4748f95854.js","path":"/Users/rob/dev/demos/django.reactjs/django_reactjs/frontend/bundles/main-9c6059c68c4748f95854.js"}]}}

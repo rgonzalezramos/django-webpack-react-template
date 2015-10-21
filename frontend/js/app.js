@@ -1,13 +1,14 @@
 'use strict';
 
+require('./app.less')
 var React = require('react');
 
 module.exports = React.createClass({
     render() {
         return (
             <div>
-                <h1>Hello World!</h1>
-                <p>This is a React app!</p>
+                <h1 className="mainHeader">Hello React!</h1>
+                <p className="mainContent">This is Django + React + Webpack + npm + less</p>
             </div>
         );
     }

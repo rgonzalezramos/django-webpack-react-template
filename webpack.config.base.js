@@ -16,7 +16,10 @@ module.exports = {
   ], // add all common plugins here
 
   module: {
-    loaders: [] // add all common loaders here
+    loaders: [ // add all common loaders here
+      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel' },
+      { test: /\.less$/, loader: 'style!css!less' }
+    ]
   },
 
   resolve: {
