@@ -6,9 +6,9 @@ All webpack configuration is under .webpack/
 
     npm install
 
-    virtualenv env
+    virtualenv .env
 
-    . env/bin/activate
+    . ./env/bin/activate
 
     pip install -r requirements.pip
 
