@@ -1,7 +1,14 @@
+# Django + Webpack + React + Babel + Less
+
 npm run watch
+
 npm run build
+
 npm run build-prod
 
-http://owaislone.org/blog/webpack-plus-reactjs-and-django/
+Followed tuturial at http://owaislone.org/blog/webpack-plus-reactjs-and-django/
 
-The bundle version is taken from webpack-stats-<ENV>.json
+django-webpack reads the bundle version from webpack-stats-[env].json
+
+All webpack configuration is under .webpack/
+
